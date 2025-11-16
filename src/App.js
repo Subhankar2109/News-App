@@ -16,9 +16,7 @@ export default class App extends Component {
           <Routes>
             <Route
               path="/"
-              element={
-                <News country="in" category="general" apiKey={{ apiKey }} />
-              }
+              element={<News country="us" category="general" apiKey={apiKey} />}
             />
           </Routes>
         </Router>
